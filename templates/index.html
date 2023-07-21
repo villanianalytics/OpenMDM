@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MDM Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>MDM Application</h1>
+  <form id="createNodeForm">
+    <h2>Create Node</h2>
+    <label for="nodeName">Node Name:</label><br>
+    <input type="text" id="nodeName" name="nodeName"><br>
+    <label for="parentId">Parent Node ID:</label><br>
+    <input type="text" id="parentId" name="parentId"><br>
+    <input type="submit" value="Submit">
+  </form>
+  <hr>
+  <h2>All Nodes</h2>
+  <ul id="nodesList"></ul>
+  <script src="../static/main.js"></script>
+</body>
+</html>
